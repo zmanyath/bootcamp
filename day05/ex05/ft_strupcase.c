@@ -22,10 +22,10 @@ char	*ft_strupcase(char *str)
 
 int	main(void)
 {
-	char str[6] = "zanele"
+	char str[6] = "zanele";
 	char *ptr;
 
-	ptr = ft_strupcase("zanele");
+	ptr = ft_strupcase(str);
 	printf("%s\n", ptr);
 	return 0;
 }
